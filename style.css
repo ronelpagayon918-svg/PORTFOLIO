@@ -182,7 +182,7 @@ body{background-image:radial-gradient(ellipse at 2% 12%,rgba(185,243,107,.12),tr
   box-shadow: 0 8px 28px rgba(185,243,107,.16);
 }
 .project-portal-showcase .portal-actions .secondary {
-  color: white;
+  color: Pink;
   border-color: rgba(255,255,255,.35);
   background: rgba(255,255,255,.09);
   backdrop-filter: blur(10px);

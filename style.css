@@ -279,3 +279,9 @@ body {
 body {
   background-image: none !important;
 }
+
+
+/* FRAME COLOR ONLY — DARK GRAY */
+:root {
+  --line: #454545;
+}

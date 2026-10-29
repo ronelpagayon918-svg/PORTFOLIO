@@ -268,3 +268,14 @@ body{background-image:radial-gradient(ellipse at 2% 12%,rgba(185,243,107,.12),tr
     border-radius: 12px;
   }
 }
+
+
+/* CUSTOM GRAY BACKGROUND ONLY */
+html,
+body {
+  background: #d1d1d1 !important;
+}
+
+body {
+  background-image: none !important;
+}

@@ -1,11 +1,11 @@
 :root {
   --ink: #1f1f1f;
-  --muted: #555555;
+  --muted: #5a5a5a;
   --paper: #e7e7e7;
-  --Blue: #d7d7d7;
-  --Blue-light: #f4f4f4;
-  --line: rgba(0, 0, 0, 0.09);
-  --dark: #d9d9d9;
+  --Blue: #c9c9c9;
+  --Blue-light: #8a8a8a;
+  --line: rgba(0, 0, 0, 0.08);
+  --dark: #d8d8d8;
 }
 
 html, body {

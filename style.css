@@ -285,3 +285,87 @@ body {
 :root {
   --line: #454545;
 }
+
+
+/* =================================
+   ANIMATED PINK HEART BACKGROUND
+   ================================= */
+
+body {
+    position: relative;
+    isolation: isolate;
+    background: transparent;
+}
+
+body::before {
+    content: "";
+    position: fixed;
+    inset: -4%;
+    z-index: -1;
+    pointer-events: none;
+
+    background-image: url("9175138.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    opacity: 0.25;
+    animation: heartFloat 25s ease-in-out infinite alternate;
+}
+
+@keyframes heartFloat {
+    0% {
+        transform: scale(1) translateY(0);
+    }
+
+    50% {
+        transform: scale(1.06) translateY(-10px);
+    }
+
+    100% {
+        transform: scale(1.10) translateY(5px);
+    }
+}
+
+/* Keep existing section colors, slightly transparent */
+
+.site-header {
+    background: rgba(251, 252, 249, 0.82);
+}
+
+.hero {
+    background:
+        radial-gradient(
+            ellipse at 85% 38%,
+            rgba(239, 248, 231, 0.85) 0,
+            transparent 36%
+        ),
+        rgba(251, 252, 249, 0.55);
+}
+
+.quick-stats {
+    background: rgba(255, 255, 255, 0.78);
+}
+
+.section-muted {
+    background: rgba(240, 244, 237, 0.82);
+}
+
+.section-dark {
+    background: rgba(20, 34, 31, 0.92);
+}
+
+.contact-section {
+    background: rgba(237, 245, 230, 0.82);
+}
+
+footer {
+    background: rgba(255, 255, 255, 0.82);
+}
+
+/* Respect reduced-motion preferences */
+@media (prefers-reduced-motion: reduce) {
+    body::before {
+        animation: none;
+    }
+}
